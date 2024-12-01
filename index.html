@@ -168,10 +168,12 @@
                                 </svg></button>
                         </div>
                         <ul class="lg:flex items-center">
-                            <li class="d-block"><a class="heading-link uppercase">About Us</a></li>
-                            <li class="d-block"><a class="heading-link uppercase">how to buy</a></li>
-                            <li class="d-block"><a class="heading-link uppercase">memes</a></li>
-                            <li class="d-block"><a class="heading-link uppercase">tokenomics</a></li>
+                            <li class="d-block"><a href="#about" class="heading-link uppercase">About Us</a></li>
+                            <li class="d-block"><a href="#buy" class="heading-link uppercase">how to buy</a></li>
+                            <li class="d-block"><a href="#meme" class="heading-link uppercase">memes</a></li>
+                            <li class="d-block"><a href="#tokenomics" class="heading-link uppercase">tokenomics</a></li>
+                            <li class="d-block"><a href="Robie White Paper.pdf" target="_blank"
+                                    class="heading-link uppercase">Whitepaper</a></li>
                             <li class="lg:hidden mt-4">
                                 <ul class="social-list items-center flex flex-wrap gap-4 flex">
                                     <li><a href="https://t.me/robiecoin" target="_blank" rel="noopener noreferrer"
@@ -465,7 +467,7 @@
                             <img src="assets/14.jpg" alt="" class="block">
                         </div>
                     </div>
-                    <div class="px-3 w-full  lg:w-6/12    ">
+                    <div id="about" class="px-3 w-full  lg:w-6/12    ">
                         <div class="about-content mx-auto md:px-8 lg:px-0 px-0 text-center lg:text-left"><span
                                 data-aos="fade-right" data-aos-delay="200"
                                 class="text-black font-normal leading-[140%] tracking-[10px] uppercase font-burger xl:mb-5 lg:mb-4 mb-3 aos-init aos-animate">About
@@ -515,7 +517,7 @@
                 </div>
             </div>
         </div>
-        <div class="how relative">
+        <div id="buy" class="how relative">
             <div class="container px-3 ">
                 <div class="flex flex-wrap -mx-3 ">
                     <div class="px-3 w-full      ">
@@ -996,7 +998,7 @@
                 </div>
             </div>
         </div>
-        <div class="memes bg-[#FAD73B] py-[60px] md:py-[80px] lg:py-[110px]">
+        <div id="meme" class="memes bg-[#FAD73B] py-[60px] md:py-[80px] lg:py-[110px]">
             <div class="common-title text-center">
                 <h2 data-aos="fade-up" class="aos-init aos-animate">memes</h2>
             </div>
@@ -1047,30 +1049,31 @@
                                 class="w-full h-auto min-h-full object-cover" src="assets/13.jpg" alt=""></a></div>
                 </div>
 
-                <div class="w-full mb-6">
-                    <div class="flex hover:scale-105 transition-transform duration-300 w-full">
-                        <li data-aos="fade-up" data-aos-delay="100"
-                            class="flex items-center justify-center gap-3 md:gap-5 px-4 aos-init aos-animate">
-                            <a data-aos="fade-up" data-aos-delay="200" href="https://t.me/robiecoin"
-                                class="min-h-[64px] md:min-h-[100px] px-6 md:px-10 flex items-center justify-center bg-white rounded-full shadow-[5px_8px_0px_0px_#000] aos-init aos-animate"
-                                target="_blank">
-                                <p
-                                    class="text-black font-bold !leading-[160%] text-base md:text-xl lg:text-2xl font-pragati pt-3 md:pt-4 lg:pt-5 xl:pt-6">
-                                    Tg Meme Generator Bot</p>
-                            </a>
-                        </li>
-                    </div>
-                </div>
+
 
 
             </div>
-
+            <div class="px-3 w-full     ">
+                <div class="w-full mb-6">
+                    <li data-aos="fade-up" data-aos-delay="100"
+                        class="flex items-center justify-center gap-3 md:gap-5 px-4 aos-init aos-animate">
+                        <a data-aos="fade-up" data-aos-delay="100" href="https://t.me/robiecoin"
+                            class="min-h-[64px] md:min-h-[100px] px-6 md:px-10 flex items-center justify-center bg-white rounded-full shadow-[5px_8px_0px_0px_#000] aos-init aos-animate"
+                            target="_blank">
+                            <p
+                                class="text-black font-bold !leading-[160%] text-base md:text-xl lg:text-2xl font-pragati pt-3 md:pt-4 lg:pt-5 xl:pt-6">
+                                Tg Meme Generator Bot</p>
+                        </a>
+                    </li>
+                </div>
+            </div>
         </div>
+
     </div>
 
 
 
-    <div class="tokenomics pb-6 lg:pb-0 bg-[#FAD73B] relative  z-[0]">
+    <div id="tokenomics" class="tokenomics pb-6 lg:pb-0 bg-[#FAD73B] relative  z-[0]">
         <div class="container px-3 ">
             <div class="flex flex-wrap -mx-3 justify-center">
                 <div class="px-3 w-full    2xl:w-10/12  ">
@@ -1115,6 +1118,8 @@
 
                                     </ul>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
