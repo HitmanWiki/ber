@@ -272,7 +272,10 @@
     }
 
     .hamburger {
-        display: flex;
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        margin-left: auto;
     }
 
     /* Show the menu when clicked */
